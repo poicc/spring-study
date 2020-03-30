@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chorme=1">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="never">
+    <title>Title</title>
+</head>
+<body>
+<div class="topic-container">
+    <h2>全部话题</h2>
+    <div class="topic-row" style="display: flex;">
+        <div class="topic-col-xs-3" th:each="topic:${topics}">
+            <div class="topic-card">
+                <div class="topic-card-media">
+                    <img th:src="${topic.topicIcon}" width="150px" height="150px"/>
+                    <div class="topic-card-media-covered">
+                      <div topic-card-primary style="width: 50%">
+                          <p class="topic-card-primary-title" th:text="${topic.topicName}"></p>
+                          <p class="topic-card-primary-subtitle" th:text="${topic.description}"></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="topic-card-actions">
+                    <button class="topic-btn" th:text="${topic.followersCount}"></button>
+                    <button class="topic-btn" th:text="${topic.msgCount}"></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -5,17 +5,29 @@ package com.soft1851.spring.ioc.entity;
  */
 public class Phone {
     private String phone;
+    private Double price;
     private Student student;
 
-    public Phone(String phone,Student student) {
+    public Double getPrice() {
+        return price;
+    }
+
+    public void setPrice(Double price) {
+        this.price = price;
+    }
+
+    public Phone(String phone,Double price,Student student) {
         this.phone = phone;
+        this.price = price;
         this.student = student;
     }
+
 
     @Override
     public String toString() {
         return "Phone{" +
                 "phone='" + phone + '\'' +
+                ", price=" + price +
                 ", student=" + student +
                 '}';
     }

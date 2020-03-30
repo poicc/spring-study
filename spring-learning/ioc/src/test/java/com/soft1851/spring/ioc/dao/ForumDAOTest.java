@@ -1,5 +1,6 @@
 package com.soft1851.spring.ioc.dao;
 
+import com.soft1851.spring.ioc.test.JdbcTest;
 import com.soft1851.spring.ioc.entity.Forum;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,14 +15,14 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/applicationContext.xml"})
+@ContextConfiguration(classes = {JdbcTest.class})
 public class ForumDAOTest {
     @Autowired
     private ForumDAO forumDAO;
 
     @Test
     public void insert() {
-        Forum forum = Forum.builder().forumName("疫情论坛").build();
+        Forum forum = Forum.builder().forumName("疫情论坛3").build();
         int n = forumDAO.insert(forum);
         assertEquals(1,n);
     }
@@ -40,13 +41,13 @@ public class ForumDAOTest {
 
     @Test
     public void delete() {
-        int n = forumDAO.delete(5);
+        int n = forumDAO.delete(9);
         assertEquals(1,n);
     }
 
     @Test
     public void update() {
-        Forum forum = forumDAO.get(6);
+        Forum forum = forumDAO.get(8);
         forum.setForumName("测试论坛修改的新名词");
         int n = forumDAO.update(forum);
         assertEquals(1,n);
@@ -56,11 +57,13 @@ public class ForumDAOTest {
     public void get() {
         Forum forum = forumDAO.get(7);
         assertNotNull(forum);
+        System.out.println(forum);
     }
 
     @Test
     public void selectAll() {
         List<Forum> forums = forumDAO.selectAll();
-        assertEquals(4,forums.size());
+        assertEquals(7,forums.size());
+        System.out.println(forums);
     }
 }

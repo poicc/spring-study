@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="x-ua-compatible" content="IE=edge,chorme=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="never">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>主页</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        /*.nav{*/
+        /*    background-color: #343a40;*/
+        /*    height: 40px;*/
+        /*    color: white;*/
+        /*}*/
+        /*span{*/
+        /*    margin: 50px;*/
+        /*    font-size: 18px;*/
+        /*}*/
+        .right{
+            height:auto;
+            width:35%;
+            background-color: #c6c8ca;
+        }
+        .select{
+            display: flex;
+            list-style: none;
+            width:90%;
+            border-top:1px solid #dee2e6;
+            padding-left: 10px;
+            padding-right: 10px;
+            cursor:pointer;
+            height:auto;
+            flex-wrap: wrap;
+            align-items: stretch;
+            display: flex ;
+        }
+        .delete{
+            background-color: #dc3545;
+            border-color: #dc3545;
+            height:35px;
+            width:50px;
+            top:5px;
+            right:5px;
+            font-size: 15px;
+            color: white;
+            border-radius: 5px;
+            margin:5px;
+        }
+        .same{
+            height:35px;
+            width:40px;
+            background-color:#5a6268;
+            border-color:#545b62;
+            color: white;
+            font-size: 15px;
+            border-radius: 5px;
+            margin:5px;
+        }
+        .star{
+            height:35px;
+            width:auto;
+            background-color:#5a6268;
+            border-color:#545b62;
+            color: white;
+            font-size: 15px;
+            margin:5px;
+            border-radius: 5px;
+        }
+        .head{
+            height:35px;
+            width:50px;
+            background-color:#17a2b8;
+            border-color:#17a2b8;
+            color: white;
+            margin:5px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .left{
+            width:64%;
+            margin-left:10px;
+            border:1px solid #dee2e6;
+        }
+        .left-nav{
+            background-color: black;
+            color: white;
+            height:40px;
+        }
+        .button{
+            height:35px;
+            width:auto;
+            background-color:#5a6268;
+            border-color:#545b62;
+            color: white;
+            font-size: 15px;
+            border-radius: 5px;
+            margin:5px;
+        }
+    </style>
+</head>
+<body>
+<!--<div  th:each="item,role:${mapNews}" class="nav">-->
+<!--    <span th:text="${role.current.key}">导航栏</span>-->
+<!--    <span th:text="${role.current.value}"></span>-->
+<!--</div>-->
+<!--<div class="nav">-->
+<!--    <span>明日方舟工具箱</span>-->
+<!--    <span>公开招募计算器</span>-->
+<!--    <span>升级计算</span>-->
+<!--    <span>精英材料计算</span>-->
+<!--    <span>干员表</span>-->
+<!--    <span>新版工具箱</span>-->
+<!--</div>-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">明日方舟工具箱</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">公开招募计算器<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">升级计算</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">精英材料计算</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Language
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Cheninese</a>
+                    <a class="dropdown-item" href="#">English</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Default</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    <h1 class="display-4">明日方舟资源站</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+
+<div style="display: flex;">
+<div class="right">
+    <ul class="select">
+        <li><button class="delete">清空</button></li>
+        <li><button class="same">名称</button></li>
+        <li><button class="same">图片</button></li>
+        <li><button class="same">小</button></li>
+        <li><button class="same">中</button></li>
+        <li><button class="same">大</button></li>
+        <li><button class="same">特大</button></li>
+    </ul>
+    <ul class="select">
+        <li><button class="star">ALL</button></li>
+        <li><button  class="star">6星</button></li>
+        <li><button  class="star">5星</button></li>
+        <li><button  class="star">4星</button></li>
+        <li><button  class="star">3星</button></li>
+        <li><button  class="star">2星</button></li>
+        <li><button  class="star">1星</button></li>
+    </ul>
+    <ul class="select">
+        <li class="head">资质</li>
+        <li><button class="star">新手</button></li>
+        <li><button class="star">资深干员</button></li>
+        <li><button class="star">高级资深干员</button></li>
+    </ul>
+    <ul class="select">
+        <li class="head">位置</li>
+        <li><button class="star">远程位</button></li>
+        <li><button class="star">近站位</button></li>
+    </ul>
+    <ul class="select">
+        <li class="head">种类</li>
+        <li><button class="star">先锋干员</button></li>
+        <li><button class="star">狙击干员</button></li>
+        <li><button class="star">医疗干员</button></li>
+        <li><button class="star">术师干员</button></li>
+        <li><button class="star">近卫干员</button></li>
+        <li><button class="star">重装干员</button></li>
+        <li><button class="star">辅助干员</button></li>
+        <li><button class="star">特种干员</button></li>
+    </ul>
+    <ul class="select">
+        <li class="head">词缀</li>
+        <li><button class="star">治疗</button></li>
+        <li><button class="star">支援</button></li>
+        <li><button class="star">输出</button></li>
+        <li><button class="star">群攻</button></li>
+        <li><button class="star">减速</button></li>
+        <li><button class="star">生存</button></li>
+        <li><button class="star">防护</button></li>
+        <li><button class="star">削弱</button></li>
+        <li><button class="star">位移</button></li>
+        <li><button class="star">控场</button></li>
+        <li><button class="star">爆发</button></li>
+        <li><button class="star">召唤</button></li>
+    </ul>
+</div>
+<div class="left">
+    <div class="left-nav">
+        <h4 style="padding:9px;"># Tags</h4>
+    </div>
+
+        <div style="background-color:#eeeeee;display: flex;height:auto;border-top:1px solid #dee2e6;margin:5px;flex-wrap: wrap;align-items: stretch; display: flex ;padding:10px;">
+        <button class="button">新手干员</button>
+    <div th:each="role:${roleNewList}" style="background-color: #17a2b8;display: flex;margin:5px;border-radius: 5px;width:100px;">
+            <img th:src="${role.cover}" style="width: 50px;height: 50px;border-radius: 5px;"/>
+            <p th:text="${role.name}" style="margin: 5px;"></p>
+    </div>
+        </div>
+
+    <div style="background-color:#eeeeee;display: flex;height:auto;border-top:1px solid #dee2e6;flex-wrap: wrap;align-items: stretch; display: flex ;margin:10px;padding:10px;">
+        <button class="button">资深干员</button>
+    <div th:each="role:${roleSeniorList}" style="background-color: #d39e00;display: flex;margin:5px;border-radius: 5px;width:auto;height:auto;">
+        <img th:src="${role.cover}" style="width: 50px;height: 50px;border-radius: 5px;"/>
+        <p th:text="${role.name}" style="margin: 5px;"></p>
+    </div>
+    </div>
+
+    <div style="background-color:#eeeeee;display: flex;border-top:1px solid #dee2e6;height:auto;flex-wrap: wrap;align-items: stretch; display: flex ;margin:10px;padding:10px;">
+        <button class="button">高级资深干员</button>
+    <div th:each="role:${roleExpertList}" style="background-color: #17a2b8;display: flex;margin:5px;border-radius: 5px;width:auto;height:auto;">
+        <img th:src="${role.cover}" style="width: 50px;height: 50px;border-radius: 5px;"/>
+        <p th:text="${role.name}" style="margin: 5px;"></p>
+    </div>
+    </div>
+</div>
+</div>
+
+<div class="card text-center">
+
+    <div class="card-body">
+        <h5 class="card-title">From Aknights</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    <div class="card-footer text-muted">
+        @Aknights
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

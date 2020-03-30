@@ -1,42 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web-annotation:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="690ac171-f982-43cb-8a0f-86c00f273501" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/spring-learning.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/HelloTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/StudentText.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/ForumDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/ForumDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Forum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/jdbc(1).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/ForumDAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/impl/PostDAOImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/HelloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/.idea/spring-learning 2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-learning 2/spring-learning" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_annotation_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/SortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/config/SortConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/config/StudentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/impl/PostDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/entity/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/entity/Forum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/mapper/ForumMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/service/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/java/com/soft1851/spring/mybatis/service/impl/ForumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mappers/ForumMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-xml/src/test/java/com/soft1851/spring/mybatis/service/ForumServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/config/JdbcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/ForumDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/PostDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/ForumDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/dao/impl/PostDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm/src/test/test/JdbcTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/config/SpringDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/config/WebApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/controller/TopicController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/dao/RankDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/dao/TopicDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/dao/impl/RankDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/dao/impl/TopicDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/entity/Rank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/entity/Topic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/service/RankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/service/TopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/service/impl/RankServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/service/impl/TopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/spider/BiLiBiLiSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/spider/JingDongSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/spider/JunJinSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/spider/TestSpider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/springMVC-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/templates/BiLiBiLi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/templates/topic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/web/dao/TopicDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/web/service/RankServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/src/test/java/com/soft1851/spring/web/service/TopicServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-annotation/web-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/logs/main.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/controller/ForumController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/ForumDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/dao/impl/ForumDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Forum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/entity/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/ForumService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/service/impl/ForumServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/soft1851/spring/web/util/ResponseObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/resources/springMVC-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/dao/ForumDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/soft1851/spring/web/service/ForumServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aop/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/app/BookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/ForumDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/PostDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/ForumDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/dao/impl/PostDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Forum.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/eneity/Forum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/soft1851/spring/orm/eneity/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/soft1851/spring/ioc/entity/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-annotation/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-xml/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/ForumDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/ForumDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/soft1851/spring/ioc/dao/impl/PostDAOImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/META-INF/ioc.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/target/classes/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/BookTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/HelloTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/app/StudentText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/ForumDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/PostDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/ForumDAOImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/ForumDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/dao/impl/PostDAOImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Forum$ForumBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Forum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Phone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Post$PostBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Post.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/com/soft1851/spring/ioc/entity/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/META-INF/ioc.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/ForumDAOTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/dao/impl/PostDAOImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/entity/BookTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/target/test-classes/com/soft1851/spring/ioc/entity/HelloTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,21 +197,38 @@
         <item name="db_class: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="t_forum: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_class@localhost [2]" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_class: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="t_topic: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Tag Library Descriptor" />
+        <option value="AnnotationType" />
+        <option value="HTML File" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -108,8 +241,13 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="11" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectId" id="1ZEaNllpv6eNgn5GoYyr1pxd2TV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -123,13 +261,19 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/web-annotation/src/main/java/com/soft1851/spring/web/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-xml/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,36 +281,69 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15234375" />
+    <property name="project.structure.side.proportion" value="0.20299885" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.soft1851.spring.ioc.dao.impl" />
-      <recent name="com.soft1851.spring.ioc.dao" />
+      <recent name="com.soft1851.spring.mybatis.service" />
+      <recent name="com.soft1851.spring.web.service" />
+      <recent name="com.soft1851.spring.web.dao" />
       <recent name="com.soft1851.spring.ioc.entity" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.soft1851.spring.ioc.dao" />
+      <recent name="com.soft1851.spring.ioc.dao.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.soft1851.spring.ioc.dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\maven-project\spring-study\spring-learning\web-annotation\src\main\resources" />
+      <recent name="D:\maven-project\spring-study\spring-learning\orm\src\main\resources" />
+      <recent name="D:\maven-project\spring-study\spring-learning\orm\src\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\maven-project\spring-study\spring-learning\mybatis-xml\src\main\resources" />
+      <recent name="D:\maven-project\spring-study\spring-learning\web-annotation\src\main\java\com\soft1851\spring\web\config" />
+      <recent name="D:\maven-project\spring-study\spring-learning\web-annotation\src\main\java\com\soft1851\spring\web\images" />
+      <recent name="D:\maven-project\spring-study\spring-learning\web-annotation\src\main\resources" />
+      <recent name="D:\maven-project\spring-study\spring-learning\web\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.soft1851.spring.mybatis.entity" />
+      <recent name="com.soft1851.spring.web.controller" />
+      <recent name="com.soft1851.spring.web.entity" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.soft1851.spring.web.dao.impl" />
+    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="Found 2 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="RunManager" selected="JUnit.ForumDAOTest.selectAll">
-    <configuration name="StudentText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.app.StudentText" />
-      <module name="ioc" />
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="HttpGet" />
+      <command value="CloseableHttpClient" />
+      <command value="CloseableHttpResponse" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ForumServiceTest.selectAll">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.entity.App" />
+      <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.app.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.entity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,82 +351,266 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumDAOTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
+    <configuration name="ForumServiceTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-xml" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
+          <option name="PATTERN" value="com.soft1851.spring.mybatis.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.ForumDAOTest" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForumDAOTest.selectAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.ForumDAOTest" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.mybatis.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.mybatis.service.ForumServiceTest" />
       <option name="METHOD_NAME" value="selectAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForumDAOTest.update" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
+    <configuration name="RankServiceTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.*" />
+          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.ForumDAOTest" />
-      <option name="METHOD_NAME" value="update" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.RankServiceTest" />
+      <option name="METHOD_NAME" value="batchInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostDAOImplTest.insert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ioc" />
+    <configuration name="TopicServiceTest.addTopic" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1851.spring.ioc.dao.impl.*" />
+          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.soft1851.spring.ioc.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.ioc.dao.impl.PostDAOImplTest" />
-      <option name="METHOD_NAME" value="insert" />
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
+      <option name="METHOD_NAME" value="addTopic" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopicServiceTest.batchInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1851.spring.web.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.soft1851.spring.web.service" />
+      <option name="MAIN_CLASS_NAME" value="com.soft1851.spring.web.service.TopicServiceTest" />
+      <option name="METHOD_NAME" value="batchInsert" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.0.M11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M11" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dev-login" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M11" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-11">
+      <deployment>
+        <artifact name="web-annotation:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-learning_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62499" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web-annotation:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="my" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M11" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:/Program Files/Java/jdk-11">
+      <deployment>
+        <artifact name="web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-learning_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49826" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
+      <item itemvalue="JUnit.RankServiceTest.batchInsert" />
+      <item itemvalue="JUnit.TopicServiceTest.addTopic" />
+      <item itemvalue="JUnit.ForumServiceTest.selectAll" />
+      <item itemvalue="Tomcat Server.my" />
+      <item itemvalue="Tomcat Server.dev-login" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.0.M11" />
+      <item itemvalue="Application.App" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForumDAOTest.selectAll" />
-        <item itemvalue="JUnit.ForumDAOTest.get" />
-        <item itemvalue="Application.StudentText" />
-        <item itemvalue="JUnit.PostDAOImplTest.insert" />
-        <item itemvalue="JUnit.ForumDAOTest.update" />
+        <item itemvalue="JUnit.ForumServiceTest.selectAll" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.RankServiceTest.batchInsert" />
+        <item itemvalue="JUnit.TopicServiceTest.batchInsert" />
+        <item itemvalue="JUnit.TopicServiceTest.addTopic" />
       </list>
     </recent_temporary>
   </component>
   <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
     <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+    <option name="showMultipleContextsPanel" value="false" />
+    <option name="showProfilesPanel" value="false" />
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -269,7 +630,61 @@
       <workItem from="1584411411687" duration="4439000" />
       <workItem from="1584426004933" duration="769000" />
       <workItem from="1584426777371" duration="6354000" />
-      <workItem from="1584439757573" duration="10398000" />
+      <workItem from="1584439757573" duration="13171000" />
+      <workItem from="1584454071057" duration="978000" />
+      <workItem from="1584519232160" duration="121000" />
+      <workItem from="1584519463178" duration="1096000" />
+      <workItem from="1584576937068" duration="10596000" />
+      <workItem from="1584590241652" duration="2007000" />
+      <workItem from="1584596039306" duration="7269000" />
+      <workItem from="1584621416909" duration="7000" />
+      <workItem from="1584621836136" duration="11000" />
+      <workItem from="1584622757757" duration="10000" />
+      <workItem from="1584704825718" duration="815000" />
+      <workItem from="1584705646191" duration="6158000" />
+      <workItem from="1584712380744" duration="529000" />
+      <workItem from="1584796862488" duration="1032000" />
+      <workItem from="1584797974560" duration="964000" />
+      <workItem from="1584798944260" duration="1893000" />
+      <workItem from="1584800842638" duration="1633000" />
+      <workItem from="1584802480528" duration="72000" />
+      <workItem from="1584802583401" duration="67000" />
+      <workItem from="1584802671418" duration="2827000" />
+      <workItem from="1584805725989" duration="377000" />
+      <workItem from="1584841370440" duration="4201000" />
+      <workItem from="1584854256787" duration="189000" />
+      <workItem from="1584856610756" duration="62000" />
+      <workItem from="1584856839275" duration="1429000" />
+      <workItem from="1585015271517" duration="2483000" />
+      <workItem from="1585017766446" duration="1386000" />
+      <workItem from="1585019157181" duration="3116000" />
+      <workItem from="1585023243785" duration="386000" />
+      <workItem from="1585023650047" duration="189000" />
+      <workItem from="1585023866962" duration="4599000" />
+      <workItem from="1585029182293" duration="185000" />
+      <workItem from="1585029370102" duration="3768000" />
+      <workItem from="1585033292691" duration="25901000" />
+      <workItem from="1585187607272" duration="4608000" />
+      <workItem from="1585370579085" duration="8594000" />
+      <workItem from="1585382393121" duration="504000" />
+      <workItem from="1585382932703" duration="116000" />
+      <workItem from="1585383051434" duration="2041000" />
+      <workItem from="1585385097335" duration="2707000" />
+      <workItem from="1585387875758" duration="148000" />
+      <workItem from="1585388055285" duration="619000" />
+      <workItem from="1585388837196" duration="5109000" />
+      <workItem from="1585395675358" duration="5894000" />
+      <workItem from="1585401740956" duration="295000" />
+      <workItem from="1585402040403" duration="946000" />
+      <workItem from="1585402991612" duration="728000" />
+      <workItem from="1585403724754" duration="17377000" />
+      <workItem from="1585421131989" duration="496000" />
+      <workItem from="1585421633338" duration="220000" />
+      <workItem from="1585443912612" duration="3438000" />
+      <workItem from="1585452035963" duration="29000" />
+      <workItem from="1585452681986" duration="25000" />
+      <workItem from="1585571892523" duration="2880000" />
+      <workItem from="1585574796685" duration="1238000" />
     </task>
     <servers />
   </component>
@@ -280,77 +695,169 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="233" y="0" key="#Project_Structure" timestamp="1584439773593">
+    <state x="466" y="0" key="#Inspections" timestamp="1585418313576">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1584439773593" />
+    <state x="466" y="0" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1585418313576" />
+    <state x="233" y="0" key="#Project_Structure" timestamp="1585385114331">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1585385114331" />
     <state x="0" y="0" key="#SQL_Dialects" timestamp="1584446859528">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="0" key="#SQL_Dialects/0.0.1280.680@0.0.1280.680" timestamp="1584446859528" />
-    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584445564717">
+    <state x="173" y="0" key="#Tomcat_Server" timestamp="1584798015615">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584445564717" />
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1584449578725">
+    <state x="173" y="0" key="#Tomcat_Server/0.0.1280.680@0.0.1280.680" timestamp="1584798015615" />
+    <state x="71" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585444853311">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584449578725" />
-    <state x="425" y="199" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584444958010">
+    <state x="71" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585444853311" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1585573434574">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="425" y="199" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1584444958010" />
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584444910056">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585573434574" />
+    <state x="164" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1585571994342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1584444910056" />
-    <state width="1032" height="119" key="GridCell.Tab.0.bottom" timestamp="1584450278052">
+    <state x="164" y="37" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1280.680@0.0.1280.680" timestamp="1585571994342" />
+    <state x="302" y="257" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1585036058245">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1032" height="119" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584450278052" />
-    <state width="1032" height="119" key="GridCell.Tab.0.center" timestamp="1584450278051">
+    <state x="302" y="257" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1280.680@0.0.1280.680" timestamp="1585036058245" />
+    <state x="430" y="247" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1585036069992">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1032" height="119" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584450278051" />
-    <state width="1032" height="119" key="GridCell.Tab.0.left" timestamp="1584450278049">
+    <state x="430" y="247" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1280.680@0.0.1280.680" timestamp="1585036069992" />
+    <state x="425" y="199" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585444452642">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1032" height="119" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584450278049" />
-    <state width="1032" height="119" key="GridCell.Tab.0.right" timestamp="1584450278052">
+    <state x="425" y="199" width="431" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1585444452642" />
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584578138152">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1032" height="119" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584450278052" />
-    <state width="1237" height="51" key="GridCell.Tab.1.bottom" timestamp="1584447446438">
+    <state x="367" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1584578138152" />
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585372559362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="51" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584447446438" />
-    <state width="1237" height="51" key="GridCell.Tab.1.center" timestamp="1584447446438">
+    <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1585372559362" />
+    <state x="306" y="55" key="DetectedRootsChooserDialog" timestamp="1585032665964">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="51" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584447446438" />
-    <state width="1237" height="51" key="GridCell.Tab.1.left" timestamp="1584447446438">
+    <state x="306" y="55" key="DetectedRootsChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1585032665964" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1585386561791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="51" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584447446438" />
-    <state width="1237" height="51" key="GridCell.Tab.1.right" timestamp="1584447446438">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1585386561791" />
+    <state x="434" y="106" key="FileChooserDialogImpl" timestamp="1585046139661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="51" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584447446438" />
+    <state x="434" y="106" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585046139661" />
+    <state width="1237" height="57" key="GridCell.Tab.0.bottom" timestamp="1585575382489">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585575382489" />
+    <state width="1237" height="57" key="GridCell.Tab.0.center" timestamp="1585575382489">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585575382489" />
+    <state width="1237" height="57" key="GridCell.Tab.0.left" timestamp="1585575382488">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585575382488" />
+    <state width="1237" height="57" key="GridCell.Tab.0.right" timestamp="1585575382489">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="57" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585575382489" />
+    <state width="1208" height="30" key="GridCell.Tab.1.bottom" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
+    <state width="1208" height="30" key="GridCell.Tab.1.center" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
+    <state width="1208" height="30" key="GridCell.Tab.1.left" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
+    <state width="1208" height="30" key="GridCell.Tab.1.right" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
+    <state width="1208" height="30" key="GridCell.Tab.2.bottom" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
+    <state width="1208" height="30" key="GridCell.Tab.2.center" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
+    <state width="1208" height="30" key="GridCell.Tab.2.left" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
+    <state width="1208" height="30" key="GridCell.Tab.2.right" timestamp="1585447368919">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1208" height="30" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1585447368919" />
     <state width="218" height="477" key="HiddenNamespacesPopup" timestamp="1584445632805">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="218" height="477" key="HiddenNamespacesPopup/0.0.1280.680@0.0.1280.680" timestamp="1584445632805" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1584411420623">
+    <state x="221" y="75" key="IDE.errors.dialog" timestamp="1584803917339">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584411420623" />
-    <state x="9" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584448578590">
+    <state x="221" y="75" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1584803917339" />
+    <state x="342" y="0" key="Maven.ArtifactSearchDialog" timestamp="1585420829692">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="9" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1584448578590" />
-    <state x="28" y="35" key="new project wizard" timestamp="1584406888012">
+    <state x="342" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1585420829692" />
+    <state x="56" y="0" key="SettingsEditor" timestamp="1585572366538">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="28" y="35" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584406888012" />
+    <state x="56" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585572366538" />
+    <state x="690" y="126" key="chooseDestDirectoryDialog" timestamp="1585444447684">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="690" y="126" key="chooseDestDirectoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1585444447684" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585571892462">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585571892462" />
+    <state x="274" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585032765318">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="274" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1585032765318" />
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585390430871">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1585390430871" />
+    <state x="9" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585573639925">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="9" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1585573639925" />
+    <state x="0" y="0" width="773" height="680" key="find.popup" timestamp="1585390362532">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" width="773" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585390362532" />
+    <state x="0" y="0" key="new project wizard" timestamp="1585571975747">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1585571975747" />
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1585415631699">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585415631699" />
+    <state x="303" y="1" key="search.everywhere.popup" timestamp="1585390430798">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1585390430798" />
+    <state x="300" y="24" key="spring file set editor" timestamp="1585572523640">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="300" y="24" key="spring file set editor/0.0.1280.680@0.0.1280.680" timestamp="1585572523640" />
   </component>
 </project>
