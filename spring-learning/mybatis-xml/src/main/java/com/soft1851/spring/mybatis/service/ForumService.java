@@ -9,25 +9,17 @@ import java.util.List;
  */
 public interface ForumService {
     /**
-
      * 新增实体
-
      * @param forum
-
      */
-
     void insert(Forum forum);
 
 
 
     /**
-
      * 根据id删除
-
      * @param id
-
      */
-
     void delete(int id);
 
 

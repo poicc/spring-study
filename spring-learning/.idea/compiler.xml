@@ -10,8 +10,8 @@
         <module name="web" />
         <module name="ioc" />
         <module name="aop" />
-        <module name="web-annotation" />
         <module name="mybatis-xml" />
+        <module name="web-annotation" />
         <module name="orm" />
       </profile>
     </annotationProcessing>

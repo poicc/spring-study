@@ -9,37 +9,25 @@ import java.util.List;
  */
 public interface ForumMapper {
     /**
-
      * 新增实体
-
      * @param forum
-
      */
-
     void insert(Forum forum);
 
 
 
     /**
-
      * 根据id删除
-
      * @param id
-
      */
-
     void delete(int id);
 
 
 
     /**
-
      * 修改
-
      * @param forum
-
      */
-
     void update(Forum forum);
 
 
