@@ -32,7 +32,7 @@
         <logback.version>1.2.3</logback.version>
         <slf4j.version>1.7.29</slf4j.version>
         <druid.version>1.1.21</druid.version>
-        <fastjison.version>1.2.56</fastjison.version>
+        <fastjison.version>1.2.83</fastjison.version>
         <mybatis.version>3.5.4</mybatis.version>
         <spring-mybatis.version>2.0.4</spring-mybatis.version>
     </properties>
@@ -150,7 +150,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.56</version>
+            <version>1.2.83</version>
             <scope>compile</scope>
         </dependency>
 
